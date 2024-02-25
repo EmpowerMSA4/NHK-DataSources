@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>abcf73c5-0d20-4ca8-93df-2f267fb00a23</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Mellanox</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Mellanox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MellanoxInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MellanoxLldpConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MellanoxMuliticastOutgoing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MellanoxMulticastRoute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MellanoxVlanDetails.cs" />
+  </ItemGroup>
+</Project>

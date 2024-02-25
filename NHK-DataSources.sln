@@ -1,0 +1,150 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{A755C6CE-AA10-469C-80DD-50C8637426AB}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C170A484-E50B-435E-8210-6EC512B1F60D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{545F5C04-1B34-4098-97FC-56C5199D44C6}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{91FB6FC6-66D9-44E0-BF94-FDE5DC86A9ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{DCD6528E-AA1F-40F6-A794-1897655AD4E8}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{B8817FBC-E284-4FE4-A99B-2F8A3D3B4D56}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{0BF498DE-29E9-48E9-812B-772263AA2424}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetMulticastNodes", "GetMulticastNodes", "{AAB16967-9631-4D78-80F7-A440677EA341}"
+	ProjectSection(SolutionItems) = preProject
+		GetMulticastNodes.xml = GetMulticastNodes.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{E3761CA0-C436-4BCD-BEA5-272EDA90D65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMulticastNodes_1", "GetMulticastNodes_1\GetMulticastNodes_1.csproj", "{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mellanox", "Mellanox\Mellanox.shproj", "{ABCF73C5-0D20-4CA8-93DF-2F267FB00A23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{414B0387-11F9-4EED-A5AC-AA1877826638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetMulticastConnections", "GetMulticastConnections", "{60767F96-F265-444A-973C-1E2B092E6011}"
+	ProjectSection(SolutionItems) = preProject
+		GetMulticastConnections.xml = GetMulticastConnections.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6E9D312C-EABC-441B-9DD4-D45A8A93F90B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMulticastConnections_1", "GetMulticastConnections_1\GetMulticastConnections_1.csproj", "{06A26C4F-DDFD-4071-AD17-3296CED009C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetMulticastIfs", "GetMulticastIfs", "{AFB53A5F-B4CA-40CF-9B69-3163A5D2BD3B}"
+	ProjectSection(SolutionItems) = preProject
+		GetMulticastIfs.xml = GetMulticastIfs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{2E0EF825-7D66-48FE-A5D7-BD177828729B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMulticastIfs_1", "GetMulticastIfs_1\GetMulticastIfs_1.csproj", "{625B2FDA-403A-4A53-AB57-CAEE5104EE90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetMulticastIfConnections", "GetMulticastIfConnections", "{1AD68B18-E882-4355-88F1-88859B6E4F72}"
+	ProjectSection(SolutionItems) = preProject
+		GetMulticastIfConnections.xml = GetMulticastIfConnections.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{C3E1AB8F-EC03-43D3-8D93-E8D5335A6A21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMulticastIfConnections_1", "GetMulticastIfConnections_1\GetMulticastIfConnections_1.csproj", "{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetMultiCastGroups", "GetMultiCastGroups", "{CFF05273-1AC1-4724-AEAD-FDFBC353200D}"
+	ProjectSection(SolutionItems) = preProject
+		GetMultiCastGroups.xml = GetMultiCastGroups.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{3D70B54F-CB4F-4B88-98E1-79C1537A5FC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMultiCastGroups_1", "GetMultiCastGroups_1\GetMultiCastGroups_1.csproj", "{06B0E98C-F3AE-4323-9AC0-357C863B3871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A26C4F-DDFD-4071-AD17-3296CED009C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A26C4F-DDFD-4071-AD17-3296CED009C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A26C4F-DDFD-4071-AD17-3296CED009C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A26C4F-DDFD-4071-AD17-3296CED009C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625B2FDA-403A-4A53-AB57-CAEE5104EE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625B2FDA-403A-4A53-AB57-CAEE5104EE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625B2FDA-403A-4A53-AB57-CAEE5104EE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625B2FDA-403A-4A53-AB57-CAEE5104EE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B0E98C-F3AE-4323-9AC0-357C863B3871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B0E98C-F3AE-4323-9AC0-357C863B3871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B0E98C-F3AE-4323-9AC0-357C863B3871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B0E98C-F3AE-4323-9AC0-357C863B3871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCD6528E-AA1F-40F6-A794-1897655AD4E8} = {91FB6FC6-66D9-44E0-BF94-FDE5DC86A9ED}
+		{0BF498DE-29E9-48E9-812B-772263AA2424} = {A755C6CE-AA10-469C-80DD-50C8637426AB}
+		{AAB16967-9631-4D78-80F7-A440677EA341} = {C170A484-E50B-435E-8210-6EC512B1F60D}
+		{E3761CA0-C436-4BCD-BEA5-272EDA90D65B} = {AAB16967-9631-4D78-80F7-A440677EA341}
+		{55CE47B3-9578-44B0-9EAD-CF81ED1E97F4} = {E3761CA0-C436-4BCD-BEA5-272EDA90D65B}
+		{ABCF73C5-0D20-4CA8-93DF-2F267FB00A23} = {414B0387-11F9-4EED-A5AC-AA1877826638}
+		{60767F96-F265-444A-973C-1E2B092E6011} = {C170A484-E50B-435E-8210-6EC512B1F60D}
+		{6E9D312C-EABC-441B-9DD4-D45A8A93F90B} = {60767F96-F265-444A-973C-1E2B092E6011}
+		{06A26C4F-DDFD-4071-AD17-3296CED009C1} = {6E9D312C-EABC-441B-9DD4-D45A8A93F90B}
+		{AFB53A5F-B4CA-40CF-9B69-3163A5D2BD3B} = {C170A484-E50B-435E-8210-6EC512B1F60D}
+		{2E0EF825-7D66-48FE-A5D7-BD177828729B} = {AFB53A5F-B4CA-40CF-9B69-3163A5D2BD3B}
+		{625B2FDA-403A-4A53-AB57-CAEE5104EE90} = {2E0EF825-7D66-48FE-A5D7-BD177828729B}
+		{1AD68B18-E882-4355-88F1-88859B6E4F72} = {C170A484-E50B-435E-8210-6EC512B1F60D}
+		{C3E1AB8F-EC03-43D3-8D93-E8D5335A6A21} = {1AD68B18-E882-4355-88F1-88859B6E4F72}
+		{B6452BE4-4B97-4C5F-9A83-E3D00E1A38B3} = {C3E1AB8F-EC03-43D3-8D93-E8D5335A6A21}
+		{CFF05273-1AC1-4724-AEAD-FDFBC353200D} = {C170A484-E50B-435E-8210-6EC512B1F60D}
+		{3D70B54F-CB4F-4B88-98E1-79C1537A5FC7} = {CFF05273-1AC1-4724-AEAD-FDFBC353200D}
+		{06B0E98C-F3AE-4323-9AC0-357C863B3871} = {3D70B54F-CB4F-4B88-98E1-79C1537A5FC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CA9CEE7-73F9-4224-912E-7A300E9B86E5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Mellanox\Mellanox.projitems*{06a26c4f-ddfd-4071-ad17-3296ced009c1}*SharedItemsImports = 5
+		Mellanox\Mellanox.projitems*{06b0e98c-f3ae-4323-9ac0-357c863b3871}*SharedItemsImports = 5
+		Mellanox\Mellanox.projitems*{55ce47b3-9578-44b0-9ead-cf81ed1e97f4}*SharedItemsImports = 5
+		Mellanox\Mellanox.projitems*{625b2fda-403a-4a53-ab57-caee5104ee90}*SharedItemsImports = 5
+		Mellanox\Mellanox.projitems*{abcf73c5-0d20-4ca8-93df-2f267fb00a23}*SharedItemsImports = 13
+		Mellanox\Mellanox.projitems*{b6452be4-4b97-4c5f-9a83-e3d00e1a38b3}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
