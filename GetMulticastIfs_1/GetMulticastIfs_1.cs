@@ -143,11 +143,6 @@ namespace GetMulticastIfs_1
 			retrievedIfs = new Dictionary<string, GQIRow>();
 			foreach (var mellanox in Switches.Values)
 			{
-				if (!mellanox.DmsElement.IsStartupComplete() || mellanox.DmsElement.State != Skyline.DataMiner.Core.DataMinerSystem.Common.ElementState.Active)
-				{
-					continue;
-				}
-
 				RetrieveIfsFromSwitch(mellanox);
 			}
 		}
@@ -250,6 +245,11 @@ namespace GetMulticastIfs_1
 				if (_switches.ContainsKey(element.HostName))
 				{
 					throw new ArgumentException($"Found two Mellonox with system name {element.HostName}");
+				}
+
+				if (!element.DmsElement.IsStartupComplete() || element.DmsElement.State != Skyline.DataMiner.Core.DataMinerSystem.Common.ElementState.Active)
+				{
+					continue;
 				}
 
 				_switches[element.HostName] = element;
