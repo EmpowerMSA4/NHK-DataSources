@@ -143,6 +143,11 @@ namespace GetMulticastIfs_1
 			retrievedIfs = new Dictionary<string, GQIRow>();
 			foreach (var mellanox in Switches.Values)
 			{
+				if (!mellanox.DmsElement.IsStartupComplete() || mellanox.DmsElement.State != Skyline.DataMiner.Core.DataMinerSystem.Common.ElementState.Active)
+				{
+					continue;
+				}
+
 				RetrieveIfsFromSwitch(mellanox);
 			}
 		}
